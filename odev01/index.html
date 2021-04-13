@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kediyi Bul</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <h2>Kedi Bulmaca</h2>
+    <p>Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir.İlk tercihte Kedi kartını bulamaz isen 2.seçim hakkı tanınacaktır.</p>
+
+   <img id="kopek" class="kart"  src="./img/kart.jpeg" onclick="goster()">
+   <img id="kedi" class="kart"  src="./img/kart.jpeg" onclick="goster()">
+   <img id="kopek2" class="kart"  src="./img/kart.jpeg" onclick="goster()">
+
+   <div class="mesaj">
+       <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın.</p>
+       <p id="kazandiId" style="display: none"></p>
+       <p id="yenildiId" style="display: none"></p>
+
+   </div>
+   
+   
+   <!-- <script>
+
+        let image = document.getElementById('kedi');
+        function goster() {
+        
+        this.src = "./img/kedi.jpeg";
+        } 
+
+        image.addEventListener('click',goster);
+   </script> -->
+   <script src="./js/kod.js"></script>
+</body>
+</html>
